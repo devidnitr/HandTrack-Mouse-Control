@@ -1,8 +1,8 @@
-HandTrack Mouse Control
+#HandTrack Mouse Control
 Control your computer mouse and system volume using real-time hand gestures — powered by Mediapipe and OpenCV.
 This project demonstrates how computer vision and gesture recognition can create a modern, touchless human-computer interface.
 
-✨ Features
+✨ #Features
 Cursor movement by tracking hand position
 
 Left-click and double-click detection
@@ -26,38 +26,3 @@ PyAutoGUI – to trigger mouse and keyboard events
 
 NumPy
 
-🚀 How to Run
-Clone this repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/devidnitr/HandTrack-Mouse-Control.git
-cd HandTrack-Mouse-Control
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the project:
-
-bash
-Copy
-Edit
-python main.py
-(Replace main.py with your actual filename if different.)
-
-📂 Project Structure
-arduino
-Copy
-Edit
-HandTrack-Mouse-Control/
-├── main.py
-├── README.md
-├── requirements.txt
-└── ...
-📌 Notes
-Make sure your webcam is enabled.
-
-Gestures may need good lighting and camera angle for accurate detection.
